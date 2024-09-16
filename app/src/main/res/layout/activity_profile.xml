@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#27245E"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+
+    <!-- Profile Image -->
+    <TextView
+        android:id="@+id/profileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/my_profile"
+        android:textColor="@android:color/white"
+        android:textSize="34sp" />
+
+    <!-- Edit Button -->
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="408dp"
+        android:layout_height="488dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@null"
+        android:src="@drawable/dew" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/button_pink"
+        android:padding="12dp"
+        android:text="@string/edit"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_nav_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="338dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Home" />
+
+        <Button
+            android:id="@+id/Home"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="344dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/path" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="13dp"
+            android:text="@string/dreams" />
+
+        <Button
+            android:id="@+id/dreams"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="234dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/union" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/Settings" />
+
+        <Button
+            android:id="@+id/Settings"
+            android:layout_width="35dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/User" />
+
+        <Button
+            android:id="@+id/User"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/user" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_more">#FFFFFF</color>   <!--transparent-->
+    <color name="button_lucid_dreaming">#FCF6FF</color> <!--different transparency levels-->
+    <color name="grey">#D9D9D9</color>
+    <color name="techniquesButtonColor">#FCF6FF</color> <!--different transparency levels-->
+    <color name="techniquesBackgroundColor">#D9CFFF</color>
+    <color name="tryNowButtonColor">#FCF6FF</color> <!--different transparency levels-->
+    <color name="sleepStatsBackgroundColor">#F1E6FF</color>
+    <color name="sleepSoundsButtonColor">#FCF6FF</color> <!--different transparency levels-->
+    <color name="saveButtonColor">#FCF6FF</color> <!--different transparency levels-->
+
+    <color name="pink">#EEBBC3</color>
+    <color name="infoBackgroundColor">#ECCAF7</color>
+    <color name="button_pink">#FFC0CB</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="getStartedButtonColor">#0EFFF1</color>
+    <color name="seeAllButtonTextColor">#5099B5</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="infoTextColor">#5B4E87</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="deepBlue">#43387A</color>
+    <color name="bg_color">#5A4895</color>
+    <color name="bg_color_profile">#27245E</color>
+    <color name="techniquesTextColor">#2C3361</color>
+    <color name="sleepSoundsBackgroundColor">#200238</color>
+    <color name="searchBackgroundColor">#0C0C28</color>
+    <color name="editBackgroundColor">#27245D</color>
+    <color name="addDreamBackgroundColor">#4D4FA5</color>
+</resources>

@@ -1,0 +1,91 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/infoBackgroundColor">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/alatsi"
+        android:paddingBottom="16dp"
+        android:text="@string/lucid_dreaming_title"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textInfo"
+        app:layout_constraintEnd_toEndOf="@+id/textInfo"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textInfo" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="373dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/alatsi"
+        android:paddingBottom="24dp"
+        android:text="@string/lucid_dreaming_paragraph"
+        android:textColor="@color/infoTextColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInfo2"
+        android:layout_width="385dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/alatsi"
+        android:paddingBottom="24dp"
+        android:text="@string/lucid_dreaming_paragraph2"
+        android:textColor="@color/infoTextColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInfo3"
+        android:layout_width="377dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/alatsi"
+        android:paddingBottom="24dp"
+        android:text="@string/lucid_dreaming_paragraph3"
+        android:textColor="@color/infoTextColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageHalfMoon"
+        android:layout_width="370dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@null"
+        android:paddingBottom="24dp"
+        android:src="@drawable/halfmoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInfo" />
+
+    <Button
+        android:id="@+id/buttonTechniques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/techniquesButtonColor"
+        android:text="@string/techniques_button_text"
+        android:textColor="@color/techniquesTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHalfMoon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

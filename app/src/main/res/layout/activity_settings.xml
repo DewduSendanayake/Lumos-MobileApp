@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5A4895">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/settings"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageLucid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageWakeup"
+            android:layout_width="159dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="28dp"
+            android:contentDescription="@null"
+            android:src="@drawable/wakeup"
+            app:layout_constraintEnd_toStartOf="@+id/imageLucid"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageLucid" />
+
+
+        <!-- Image and Button in Horizontal Layout -->
+
+
+        <ImageView
+            android:id="@+id/imageLucid"
+            android:layout_width="157dp"
+            android:layout_height="108dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@null"
+            android:src="@drawable/lucid"
+            app:layout_constraintBottom_toTopOf="@+id/imageRC"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <!-- Last Button -->
+
+        <ImageView
+            android:id="@+id/imageRC"
+            android:layout_width="412dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="-4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/rc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageWakeup" />
+
+        <ImageView
+            android:id="@+id/imageentry"
+            android:layout_width="353dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/entry"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageClue"
+            android:layout_width="278dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@null"
+            android:src="@drawable/clue"
+            app:layout_constraintEnd_toStartOf="@+id/buttonMore"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageRC" />
+
+        <Button
+            android:id="@+id/buttonMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:layout_marginEnd="20dp"
+            android:background="#14FFFFFF"
+            android:fontFamily="@font/alatsi"
+            android:padding="8dp"
+            android:text="@string/more"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageRC" />
+
+        <Button
+            android:id="@+id/buttonWhatIsLucidDreaming"
+            android:layout_width="195dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/deepBlue"
+            android:fontFamily="@font/alatsi"
+            android:padding="12dp"
+            android:text="@string/what_is_lucid_dreaming"
+            android:textColor="#FCF6FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageClue" />
+
+        <Button
+            android:id="@+id/buttongooo"
+            android:layout_width="82dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="228dp"
+            android:text="@string/morebtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageClue" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="219dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="-340dp"
+            android:layout_marginTop="-50dp"
+            android:autofillHints="@null"
+            android:ems="10"
+            android:fontFamily="@font/alatsi"
+            android:inputType="text"
+            android:text="@string/clue"
+            android:textColor="#FFFEFE"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toEndOf="@+id/imageClue"
+            app:layout_constraintTop_toBottomOf="@+id/imageClue" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_nav_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="338dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/Home" />
+
+        <Button
+            android:id="@+id/Home"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="344dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/path" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="13dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/dreams" />
+
+        <Button
+            android:id="@+id/dreams"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="234dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/union" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="17dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/Settings" />
+
+        <Button
+            android:id="@+id/Settings"
+            android:layout_width="35dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/User" />
+
+        <Button
+            android:id="@+id/User"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/user" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">LUMOS</string>
+    <string name="slogan">Dream Bright, Sleep Tight!</string>
+
+    <string name="OnboardT1">Understand your sleep patterns and improve your rest. Track your REM cycles and monitor sleep stages</string>
+
+    <string name="OBbtn1">NEXT</string>
+    <string name="OBbtn2">SKIP</string>
+    <string name="OBbtn3">GET STARTED</string>
+    <string name="buttonGoBack">Go Back</string>
+    <string name="forgotbtn">Forgot Password?</string>
+    <string name="loginbtn">LOG IN</string>
+    <string name="noacbtn">Don\'t have an account?</string>
+    <string name="reg">Register Here!</string>
+
+    <string name="OnboardT2">Take control of your dreams with our guided tools. Learn to navigate your dreamscape with clarity</string>
+
+    <string name="OnboardT3">Capture your dreams and decode hidden meanings. Track your nightly journeys and gain insights</string>
+
+    <string name="login">Log in</string>
+    <string name="emailHint">Enter your email</string>
+    <string name="pwHint">********</string>
+    <string name="terms">By clicking Register, you agree to our Terms and Conditions</string>
+
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="dob_hint">DD/ MM/ YYYY</string>
+    <string name="gender_hint">Male/ Female/ Other</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">********</string>
+    <string name="Bdayy">Birth Day</string>
+    <string name="Gen">Gender</string>
+    <string name="pww">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="login_here">Login Here</string>
+
+    <string name="_9_30_pm_7_30_am">9:30 pm - 7:30 am</string>
+    <string name="your_optimal_bedtime"> Your Optimal Bedtime</string>
+    />
+    <string name="welcomedewdu">Welcome Dewdu! 🤍</string>
+    <string name="title">09:30 – 08:30 am</string>
+    <string name="Home">Home</string>
+    <string name="Settings">Settings</string>
+    <string name="User">User</string>
+    <string name="dreams">Dreams</string>
+    <string name="title2">Dreams Recorded</string>
+    <string name="_23">23</string>
+    <string name="next_reality_check">Next Reality Check</string>
+    <string name="in_20_mins">In 20 Mins</string>
+
+    <string name="dream_journal_title">DREAM JOURNAL</string>
+    <string name="d1">01 / 08 / 2024</string>
+    <string name="d2">31 / 07 / 2024</string>
+    <string name="d3">30 / 07 / 2024</string>
+    <string name="d4">28 / 07 / 2024</string>
+    <string name="d5">27 / 07 / 2024</string>
+    <string name="s1">Unicorns and Boo</string>
+    <string name="s2">Harry Potter</string>
+    <string name="s3">So many cats</string>
+    <string name="s4">Friends cast</string>
+    <string name="s5">Jungkook and BTS</string>
+    <string name="t1">Many beautiful unicorns were there …</string>
+    <string name="t2">OMG! Hermione and Harry were …</string>
+    <string name="t3">It was so adorable!! Like 100s of cats …</string>
+    <string name="t4">There were Joey, Rachel, Monica …</string>
+    <string name="t5">He came and smiled at me and …</string>
+
+    <string name="addbtn">+ Add New</string>
+
+    <string name="settings">Settings</string>
+    <string name="more">More</string>
+    <string name="morebtn"> > </string>
+    <string name="clue">Teddy bear with a red bow tie</string>
+    <string name="what_is_lucid_dreaming">What is Lucid Dreaming?</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="edit">Edit</string>
+
+    <string name="lucid_dreaming_title">Lucid Dreaming</string>
+    <string name="lucid_dreaming_paragraph">Lucid dreaming is the fascinating phenomenon where you become aware that you are dreaming while still in the dream. This heightened state of consciousness within your dream allows you to take control, shaping the dream environment and your actions within it.</string>
+    <string name="lucid_dreaming_paragraph2">Imagine flying through the sky, exploring fantastical worlds, or confronting fears in a safe, controlled space- all within the realm of your own mind.</string>
+    <string name="lucid_dreaming_paragraph3">Lucid dreaming is not just an exhilarating experience, it can also be a powerful tool for personal growth, problem-solving, and creativity. By practicing techniques to achieve lucidity, you can unlock the full potential of your dreams, turning your nightly slumber into an extraordinary adventure.</string>
+    <string name="techniques_button_text">Techniques</string>
+
+    <string name="techniques_title">Techniques</string>
+    <string name="road_image">Road image</string>
+    <string name="try_now_button_text">Try Now</string>
+
+    <string name="sleep_analytics_title">Sleep Analytics</string>
+    <string name="stat_image">Stat image</string>
+    <string name="sleep_sounds_button_text">Sleep Sounds</string>
+
+    <string name="music_image">Music image</string>
+    <string name="get_started_button_text">Get Started</string>
+    <string name="owl_image">Owl image</string>
+
+    <string name="search_hint">Search Sound or Video</string>
+    <string name="listen_now_text">Listen Now</string>
+    <string name="see_all_button_text">See All</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="listen_image">Listen image</string>
+
+    <string name="edit_your_profile_text">Edit Your Profile</string>
+    <string name="profile_image">Profile image</string>
+    <string name="textbox_hint">Enter text here</string>
+    <string name="pen_icon">Pen icon</string>
+    <string name="rate_image">Rate image</string>
+    <string name="save_button_text">SAVE</string>
+
+    <string name="bday">31 / 08 / 2001</string>
+    <string name="gender">Female</string>
+    <string name="address">54/21, Villuda Uyana, Panagoda …</string>
+    <string name="phone">+94 707081326</string>
+
+    <string name="add_new_dream_text">Add New Dream</string>
+    <string name="dream_image">Dream image</string>
+    <string name="dream_topic_text">Dream Topic: Wizarding World</string>
+    <string name="dream_story_image">Dream story image</string>
+    <string name="dream_paragraph_text">
+        There were all 3 of them. All Harry, Hermione and Ron. I could not believe my luck when Hermione came and greeted me saying “Heyyy” I was totally like omg Hermione! But I acted cool like it was totally normal for me, no big deal.
+
+        Then out of nowhere Draco came along and dragged me away, he asked me what I was doing. I was confused, what was wrong with talking with Hermione? Then before I ask anything else he suddenly hugged me. I was frozen, he told me “I told you not to worry sweetie. She’s my ex I don’t like her anymore” OMGGGG Is he my boyfriend??????
+
+        Then I heard somebody screaming. I turned around and guess who I saw?! Umbridge!! Yuck. Looking as ugly as ever. She smiled in a cruel way and looked me up and down. I looked to my left and Draco wasn’t there! Instead there was Cedric! Like whaaat…
+
+        Then I heard somebody screaming again. And I WOKE UP! Ugh. It was my stupid sister watching her stupid TV programme. Anyway, this was one of the best dreams I’ve ever had.
+    </string>
+    <string name="save_text">SAVE</string>
+    <string name="data_image">Data image</string>
+
+</resources>

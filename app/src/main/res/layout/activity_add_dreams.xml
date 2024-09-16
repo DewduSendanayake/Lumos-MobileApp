@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/addDreamBackgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Add New Dream Text -->
+        <TextView
+            android:id="@+id/addNewDreamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/alatsi"
+            android:text="@string/add_new_dream_text"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <!-- Image with Dream Topic Text -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/dreamTopicText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/dreamImage"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/alatsi"
+                android:text="@string/dream_topic_text"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/dreamImage"
+                android:layout_width="244dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dream_image"
+                android:src="@drawable/im" />
+
+        </RelativeLayout>
+
+        <!-- Image with Dream Paragraph -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/dreamStoryImage"
+                android:layout_width="395dp"
+                android:layout_height="417dp"
+                android:contentDescription="@string/dream_story_image"
+                android:src="@drawable/hut"
+                tools:layout_editor_absoluteX="-7dp"
+                tools:layout_editor_absoluteY="-67dp" />
+
+            <TextView
+                android:id="@+id/dreamParagraphText"
+                android:layout_width="388dp"
+                android:layout_height="417dp"
+                android:fontFamily="@font/alatsi"
+                android:padding="8dp"
+                android:text="@string/dream_paragraph_text"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-5dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="229dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/saveButtonColor"
+                android:fontFamily="@font/alatsi"
+                android:text="@string/save_text"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dreamStoryImage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Save Button -->
+
+        <!-- Data Image -->
+        <ImageView
+            android:id="@+id/dataImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/data_image"
+            android:src="@drawable/data" />
+
+    </LinearLayout>
+</ScrollView>

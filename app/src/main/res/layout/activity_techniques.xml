@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:background="@color/techniquesBackgroundColor">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/textTechniquesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/alatsi"
+        android:paddingBottom="16dp"
+        android:text="@string/techniques_title"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Road Image -->
+
+    <!-- Try Now Button -->
+    <ImageView
+        android:id="@+id/imageRoad"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/road_image"
+        android:paddingBottom="24dp"
+        android:src="@drawable/road" />
+
+    <Button
+        android:id="@+id/buttonTryNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/tryNowButtonColor"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/try_now_button_text"
+        android:textColor="@color/black" />
+</LinearLayout>
