@@ -30,22 +30,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageback"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="18dp"
-        android:contentDescription="@null"
-        android:src="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="@+id/imageback2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.357"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textDescription" />
-
-    <ImageView
         android:id="@+id/imageback2"
         android:layout_width="318dp"
         android:layout_height="61dp"
