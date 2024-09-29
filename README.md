@@ -44,6 +44,14 @@ I’ve crafted **Lumos** for everyone passionate about sleep, dreams, and person
 
 ---
 
+## 📄 License & Usage
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.  
+You may not use this work for commercial purposes.  
+For more details, see the [LICENSE](LICENSE) file or visit the [Creative Commons website](https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
 **Lumos**: Light your path through the world of dreams. 🌙✨
 
 ---
